@@ -97,6 +97,11 @@ USE_GPU = True
 MIXED_PRECISION = False  # Use automatic mixed precision training
 GRADIENT_CLIPPING = 1.0  # Clip gradients to prevent exploding gradients
 
+# Model Performance Monitoring
+ENABLE_PROFILING = False  # Enable PyTorch profiler for performance analysis
+LOG_MEMORY_USAGE = True   # Log GPU/CPU memory usage during training
+SAVE_TRAINING_METRICS = True  # Save detailed training metrics to JSON
+
 # Experimental Features
 USE_ATTENTION = False  # Experimental: Use attention mechanisms
 USE_CONVOLUTION = False  # Experimental: Use 1D convolutions along radial dimension
